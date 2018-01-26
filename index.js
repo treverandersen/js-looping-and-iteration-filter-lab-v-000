@@ -1,8 +1,8 @@
 // Code your solution in this file
 function findMatching(arr, str) {
-  var newArr = arr.filter(function(str) {
+  var newArr = arr.filter(function(name) {
     debugger;
-    return str == arr
+    return name.toLowerCase() === str 
   })
-  console.log(newArr);
+  //console.log(newArr);
 }
