@@ -1,4 +1,7 @@
 // Code your solution in this file
 function findMatching(arr, str) {
-  arr.filter(function (str) { return str === str; });
+  var newArr = arr.filter(function(str) {
+    return str == arr.str 
+  })
+  console.log(newArr);
 }
