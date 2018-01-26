@@ -2,7 +2,7 @@
 function findMatching(arr, str) {
   return arr.filter(function(name) {
     //debugger;
-    return name.toLowerCase() === str
+    return name.toLowerCase() === str.toLowerCase()
   })
-   
+
 }
