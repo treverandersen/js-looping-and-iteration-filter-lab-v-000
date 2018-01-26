@@ -6,7 +6,7 @@ function findMatching(arr, str) {
 }
 
 function fuzzyMatch(arr, l) {
-  return arr.filter(function(letter) {
-    return letter.match(/\b/i) === l.match(/\b/i)
+  return arr.filter(function(name) {
+    return name.match(/\b/i) === l.match(/\b/i)
   })
 }
