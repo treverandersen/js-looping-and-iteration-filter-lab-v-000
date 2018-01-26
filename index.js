@@ -5,9 +5,9 @@ function findMatching(arr, str) {
   })
 }
 
-function fuzzyMatch(arr, l) {
+function fuzzyMatch(arr, letter) {
   return arr.filter(function(name) {
-    return l === name.match(/^[a-zA-Z]/i)
+    return name.match(/^[a-zA-Z]/i) === letter.match(/^[a-zA-Z]/i)
   })
 }
 
