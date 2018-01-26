@@ -7,6 +7,6 @@ function findMatching(arr, str) {
 
 function fuzzyMatch(arr, str) {
   return arr.filter(function(letter) {
-    return letter.match(\^) === str.match(\^)
+    return letter.match([\^]) === str.match([\^])
   })
 }
