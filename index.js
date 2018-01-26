@@ -13,8 +13,6 @@ function fuzzyMatch(arr, letter) {
 
 function matchName(arr, str) {
   return arr.filter(function(name) {
-    for (const name of str) {
-      return arr.name
-    }
+    return arr.name === str
   })
 }
