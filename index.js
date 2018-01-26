@@ -4,4 +4,3 @@ function findMatching(arr, str) {
     return name.toLowerCase() === str.toLowerCase()
   })
 }
-
