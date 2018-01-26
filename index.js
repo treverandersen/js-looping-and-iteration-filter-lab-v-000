@@ -10,3 +10,9 @@ function fuzzyMatch(arr, l) {
     return name.match(/\b/i) === l.match(/\b/i)
   })
 }
+
+function matchName(arr, str) {
+  return arr.filter(function(name) {
+    return name.toLowerCase() === str.toLowerCase()
+  })
+}
