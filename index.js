@@ -4,5 +4,5 @@ function findMatching(arr, str) {
     //debugger;
     return name.toLowerCase() === str
   })
-  
+   
 }
