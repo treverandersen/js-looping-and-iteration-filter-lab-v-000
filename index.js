@@ -7,12 +7,14 @@ function findMatching(arr, str) {
 
 function fuzzyMatch(arr, letter) {
   return arr.filter(function(name) {
-    return name.charAt(0) === letter.charAt(0) 
+    return name.charAt(0) === letter.charAt(0)
   })
 }
 
 function matchName(arr, str) {
   return arr.filter(function(name) {
-    return arr.name.toLowerCase() === arr.str.toLowerCase()
+    for (const name of str) {
+      return arr.name
+    }
   })
 }
